@@ -42,7 +42,7 @@ pipeline:
                     envVariables:
                       PLUGIN_SKIP_TLS_VERIFY: "true"
           sharedPaths:
-            - /harness
+            - /gbshared
           caching:
             enabled: false
             paths: []
