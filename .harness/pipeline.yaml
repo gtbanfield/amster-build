@@ -27,17 +27,17 @@ pipeline:
               nodeSelector: {}
               os: Linux
           execution:
-            steps:                  
+            steps:
               - step:
                   type: BuildAndPushDockerRegistry
                   name: Nexus
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: account.Nexus
-                    repo: 192.168.1.83:5000/repository/harness/client
+                    repo: 192.168.1.83:5000/repository/amster
                     tags: <+input>
                     dockerfile: <+input>
                     buildArgs:
                       APP_NAME: <+pipeline.name>
                     envVariables:
-                      PLUGIN_SKIP_TLS_VERIFY: "true"                          
+                      PLUGIN_SKIP_TLS_VERIFY: "true"
