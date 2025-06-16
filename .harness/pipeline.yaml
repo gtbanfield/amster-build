@@ -29,6 +29,17 @@ pipeline:
           execution:
             steps:
               - step:
+                  type: Run
+                  name: setup
+                  identifier: setup
+                  spec:
+                    connectorRef: account.harnessImage
+                    image: maven:3.9.9-amazoncorretto-17-al2023
+                    shell: Sh
+                    command: |-
+                      cd amster-build/amster/samples/docker
+                      ./setup.sh
+              - step:
                   type: BuildAndPushDockerRegistry
                   name: Nexus
                   identifier: BuildAndPushDockerRegistry_1
