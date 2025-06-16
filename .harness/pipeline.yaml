@@ -41,6 +41,10 @@ pipeline:
                       APP_NAME: <+pipeline.name>
                     envVariables:
                       PLUGIN_SKIP_TLS_VERIFY: "true"
+                    resources:
+                      limits:
+                        memory: 2Gi
+                        cpu: 1
           sharedPaths:
             - /gbshared
           caching:
