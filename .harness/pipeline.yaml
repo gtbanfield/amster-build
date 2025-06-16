@@ -39,7 +39,7 @@ pipeline:
                     command: |-
                       pwd
                       ls -la .
-                      /harness/amster-build/amster/samples/docker/setup.sh
+                      amster/samples/docker/setup.sh
               - step:
                   type: BuildAndPushDockerRegistry
                   name: Nexus
