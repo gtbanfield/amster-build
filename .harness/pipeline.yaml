@@ -41,3 +41,10 @@ pipeline:
                       APP_NAME: <+pipeline.name>
                     envVariables:
                       PLUGIN_SKIP_TLS_VERIFY: "true"
+          sharedPaths:
+            - /harness
+          caching:
+            enabled: false
+            paths: []
+          buildIntelligence:
+            enabled: false
