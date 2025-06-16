@@ -38,11 +38,8 @@ pipeline:
                     shell: Sh
                     command: |-
 
-                      ls -la .
-                      pwd
-
-                      # cd /amster-build/amster/samples/docker
-                      # ./setup.sh
+                      ls -la amster-build/amster/samples/docker
+                      amster-build/amster/samples/docker/setup.sh
               - step:
                   type: BuildAndPushDockerRegistry
                   name: Nexus
