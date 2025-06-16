@@ -22,7 +22,7 @@ ENV FORGEROCK_HOME /home/forgerock
 # iputils-ping - ping command
 RUN apt-get update && apt-get upgrade -y && apt-get install -y unzip curl dnsutils iputils-ping sysstat
 
-COPY /harness/amster/samples/docker/build /build
+COPY /amster/samples/docker/build /build
 
 RUN mkdir -p /opt/amster && \
     cp  -R /build/* /opt/amster && \
