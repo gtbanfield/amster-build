@@ -37,7 +37,7 @@ pipeline:
                     image: maven:3.9.9-amazoncorretto-17-al2023
                     shell: Sh
                     command: |-
-                      cd amster-build/amster/samples/docker
+                      cd /amster-build/amster/samples/docker
                       ./setup.sh
               - step:
                   type: BuildAndPushDockerRegistry
