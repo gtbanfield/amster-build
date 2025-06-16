@@ -34,7 +34,7 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: account.Nexus
-                    repo: 192.168.1.83:5000/repository/amster
+                    repo: 192.168.1.83:5000/repository/amster-base
                     tags: <+input>
                     dockerfile: <+input>
                     buildArgs:
