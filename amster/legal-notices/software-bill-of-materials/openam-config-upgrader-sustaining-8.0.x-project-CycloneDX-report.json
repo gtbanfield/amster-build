@@ -1,0 +1,1223 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:f4fe352e-c23a-42be-9266-bb927dbdb06c",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-04-15T11:59:34Z",
+    "tools" : [ {
+      "vendor" : "Mend.io",
+      "name" : "CycloneDX report generator",
+      "version" : "1.0.0"
+    } ],
+    "authors" : [ {
+      "name" : "Organization: ForgeRock"
+    }, {
+      "name" : "Person: ci (ci@pingidentity.com)"
+    } ],
+    "component" : {
+      "name" : "openam-config-upgrader - sustaining/8.0.x",
+      "type" : "application",
+      "bom-ref" : "36c7dd84-ebf3-40fd-ae9c-c2a4f6f18014"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "Product SBOM Report"
+    } ]
+  },
+  "components" : [ {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-swing-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e95ca0ea2eece97bf32ae215e014d8a9158afae9"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2010-2012 Google Inc,Copyright 2008-2020 Hazelcast, Inc,Apache Software Foundation,Copyright 2003-2023 The Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.groovy/groovy-swing@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "0163b1bc-bed8-44f4-be38-368e8ed4e2fd"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-swing-4.0.17.jar"
+  }, {
+    "group" : "com.google.code.findbugs",
+    "name" : "jsr305-3.0.0.jar",
+    "version" : "3.0.0",
+    "description" : "JSR305 Annotations for Findbugs",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5871fb60dc68d67da54a663c3fd636a10a532948"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.0?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://findbugs.sourceforge.net/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://findbugs.sourceforge.net/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7ea18a2f-f53d-41ad-9a4e-2b7e6d3469fc"
+    } ],
+    "type" : "library",
+    "bom-ref" : "jsr305-3.0.0.jar"
+  }, {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-console-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "7eb87c7a1fd70cbf8c31180a8a130731144f20a1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2003-2023 The Apache Software Foundation,Apache Software Foundation,Copyright 2010-2012 Google Inc,Copyright 2008-2020 Hazelcast, Inc",
+    "purl" : "pkg:maven/org.apache.groovy/groovy-console@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e0e7a444-b2fe-4c04-8664-5059da696913"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-console-4.0.17.jar"
+  }, {
+    "group" : "org.slf4j",
+    "name" : "slf4j-api-2.0.16.jar",
+    "version" : "2.0.16",
+    "description" : "The slf4j API",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0172931663a09a1fa515567af5fbef00897d3c04"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "QOS.ch,Copyright 2004-2022 QOS.ch Sarl",
+    "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.slf4j.org"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.slf4j.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e98b1211-09c0-47ac-9bef-1506f8fa159f"
+    } ],
+    "type" : "library",
+    "bom-ref" : "slf4j-api-2.0.16.jar"
+  }, {
+    "group" : "com.google.guava",
+    "name" : "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+    "version" : "9999.0-empty-to-avoid-conflict-with-guava",
+    "description" : "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b421526c5f297295adef1c886e5246c39d4ac629"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright Google Inc",
+    "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/google/guava"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/google/guava"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c55029ae-a336-4556-ba9e-04ffffbee184"
+    } ],
+    "type" : "library",
+    "bom-ref" : "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+  }, {
+    "group" : "com.fasterxml.jackson.core",
+    "name" : "jackson-annotations-2.16.1.jar",
+    "version" : "2.16.1",
+    "description" : "Core annotations used for value types, used by Jackson data binding package.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "fd441d574a71e7d10a4f73de6609f881d8cdfeec"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "FasterXML,Copyright 2007 Tatu Saloranta (tatu.saloranta@iki.fi)",
+    "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.16.1?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://fasterxml.com/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://fasterxml.com/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "56917232-2939-4a81-95d2-73f14f6e847f"
+    } ],
+    "type" : "library",
+    "bom-ref" : "jackson-annotations-2.16.1.jar"
+  }, {
+    "group" : "com.fasterxml.jackson.core",
+    "name" : "jackson-databind-2.16.1.jar",
+    "version" : "2.16.1",
+    "description" : "General data-binding functionality for Jackson: works on core streaming API",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "02a16efeb840c45af1e2f31753dfe76795278b73"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "FasterXML,Copyright 2007 Tatu Saloranta (tatu.saloranta@iki.fi)",
+    "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.16.1?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://fasterxml.com/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://fasterxml.com/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "88a656e4-0a95-46c6-aab5-b34db2276ac3"
+    } ],
+    "type" : "library",
+    "bom-ref" : "jackson-databind-2.16.1.jar"
+  }, {
+    "group" : "org.apache.commons",
+    "name" : "commons-lang3-3.17.0.jar",
+    "version" : "3.17.0",
+    "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang. The code is tested using the latest revision of the JDK for supported LTS releases: 8, 11, 17 and 21 currently. See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml Please ensure your build environment is up-to-date and kindly report any build issues.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b17d2136f0460dcc0d2016ceefca8723bdf4ee70"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "The Apache Software Foundation,Copyright 2001-2024 The Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.17.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://commons.apache.org/proper/commons-lang/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://commons.apache.org/proper/commons-lang/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "2127c559-8b3f-4cfd-8b10-74c417458860"
+    } ],
+    "type" : "library",
+    "bom-ref" : "commons-lang3-3.17.0.jar"
+  }, {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-json-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5866d1702911b8068f1983990eb6581024103f81"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Apache Software Foundation,Copyright 2008-2020 Hazelcast, Inc,Copyright 2003-2023 The Apache Software Foundation,Copyright 2010-2012 Google Inc",
+    "purl" : "pkg:maven/org.apache.groovy/groovy-json@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8228dee3-2075-4bab-9600-33fc19888030"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-json-4.0.17.jar"
+  }, {
+    "group" : "org.ow2.asm",
+    "name" : "asm-tree-9.6.jar",
+    "version" : "9.6",
+    "description" : "Tree API of ASM, a very small and fast Java bytecode manipulation framework",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c0cdda9d211e965d2a4448aa3fd86110f2f8c2de"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "OW2,Copyright 2011-2012 Bull S.A.S",
+    "purl" : "pkg:maven/org.ow2.asm/asm-tree@9.6?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.ow2.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.ow2.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "dae168c8-d047-4f6c-b442-ab899b93a6f9"
+    } ],
+    "type" : "library",
+    "bom-ref" : "asm-tree-9.6.jar"
+  }, {
+    "group" : "com.beust",
+    "name" : "jcommander-1.82.jar",
+    "version" : "1.82",
+    "description" : "Command line parsing library for Java",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0a7c5fef184d238065de38f81bbc6ee50cca2e21"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright Notices,Copyright 2012 Cedric Beust,Copyright 2010 Cedric Beust \"cedric@beust.com\" (mailto:cedric@beust.com)",
+    "purl" : "pkg:maven/com.beust/jcommander@1.82?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://jcommander.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://jcommander.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1b15f552-cf32-477f-a088-47a7f279cb26"
+    } ],
+    "type" : "library",
+    "bom-ref" : "jcommander-1.82.jar"
+  }, {
+    "group" : "org.apache.servicemix.bundles",
+    "name" : "org.apache.servicemix.bundles.jcip-annotations-1.0_2.jar",
+    "version" : "1.0_2",
+    "description" : "This OSGi bundle wraps jcip-annotations 1.0 jar file.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d6c402ef4acdbd9d467465f7b19f88f4dfea70ff"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2005-2012 The Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.jcip-annotations@1.0_2?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.apache.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.apache.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "cb40fdf6-1186-4a3c-bff7-a91c1e0db34a"
+    } ],
+    "type" : "library",
+    "bom-ref" : "org.apache.servicemix.bundles.jcip-annotations-1.0-2.jar"
+  }, {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e69bd698f0d695d39c30c07fe83f13d7aaa583d1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2010-2012 Google Inc,Copyright 2012-2017 The ANTLR Project,Copyright 2003-2023 The Apache Software Foundation,Copyright 2008-2020 Hazelcast, Inc,Copyright 2003-2023 The Apache Software Foundation,Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.groovy/groovy@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "24a1467a-b8e5-4b85-ba6b-387c6d960d3e"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-4.0.17.jar"
+  }, {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-xml-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ec98b5f3356c8d3211a466e45100a896a3d1a3e8"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2003-2023 The Apache Software Foundation,Copyright 2010-2012 Google Inc,Copyright 2008-2020 Hazelcast, Inc,Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.groovy/groovy-xml@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "dfbec302-934f-4125-a998-b6f9bd2f259d"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-xml-4.0.17.jar"
+  }, {
+    "group" : "org.checkerframework",
+    "name" : "checker-qual-3.19.0.jar",
+    "version" : "3.19.0",
+    "description" : "checker-qual contains annotations (type qualifiers) that a programmer writes to specify Java code for type-checking by the Checker Framework.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "838b42bb6f7f73315167b359d24649845cef1c48"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2004 by the Checker Framework developers,Copyright 2004 by the Checker Framework developers",
+    "purl" : "pkg:maven/org.checkerframework/checker-qual@3.19.0?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://checkerframework.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://checkerframework.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "57777495-4dec-489a-84b9-dcbaa7b0092d"
+    } ],
+    "type" : "library",
+    "bom-ref" : "checker-qual-3.19.0.jar"
+  }, {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-groovysh-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8045729c39f1376d56ff059697baf56b432355aa"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2008-2020 Hazelcast, Inc,Copyright 2003-2023 The Apache Software Foundation,Copyright 2010-2012 Google Inc,Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.groovy/groovy-groovysh@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "6396a2c9-06db-445f-983e-5375e7f61735"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-groovysh-4.0.17.jar"
+  }, {
+    "group" : "com.google.guava",
+    "name" : "failureaccess-1.0.2.jar",
+    "version" : "1.0.2",
+    "description" : "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes are conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c4a06a64e650562f30b7bf9aaec1bfed43aca12b"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.2?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/google/guava"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/google/guava"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "ee2d7670-49a1-4b0c-96f4-0634066b1e58"
+    } ],
+    "type" : "library",
+    "bom-ref" : "failureaccess-1.0.2.jar"
+  }, {
+    "group" : "io.reactivex.rxjava3",
+    "name" : "rxjava-3.1.5.jar",
+    "version" : "3.1.5",
+    "description" : "Reactive Extensions for Java",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f640172f6d3a066ef68b185b321059ecfc63a890"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2016 RxJava Contributors",
+    "purl" : "pkg:maven/io.reactivex.rxjava3/rxjava@3.1.5?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/ReactiveX/RxJava"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/ReactiveX/RxJava"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3ff4c5c9-342a-467b-8860-02c01e0628dc"
+    } ],
+    "type" : "library",
+    "bom-ref" : "rxjava-3.1.5.jar"
+  }, {
+    "group" : "org.apache.groovy",
+    "name" : "groovy-templates-4.0.17.jar",
+    "version" : "4.0.17",
+    "description" : "Groovy: A powerful multi-faceted language for the JVM",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "35c9685595107b77358dbc04d337d6719af58958"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2008-2020 Hazelcast, Inc,Copyright 2003-2023 The Apache Software Foundation,Copyright 2010-2012 Google Inc,Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.groovy/groovy-templates@4.0.17?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "f4370789-e675-41f6-a5f0-1b259185768c"
+    } ],
+    "type" : "library",
+    "bom-ref" : "groovy-templates-4.0.17.jar"
+  }, {
+    "group" : "org.reactivestreams",
+    "name" : "reactive-streams-1.0.4.jar",
+    "version" : "1.0.4",
+    "description" : "A Protocol for Asynchronous Non-Blocking Data Sequence",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3864a1320d97d7b045f729a326e1e077661f31b7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT-0",
+        "url" : "https://opensource.org/license/MIT-0"
+      }
+    } ],
+    "copyright" : "Copyright 5000 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and as",
+    "purl" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.reactive-streams.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.reactive-streams.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "03a5c669-d519-4679-b0f6-2eaf2742a759"
+    } ],
+    "type" : "library",
+    "bom-ref" : "reactive-streams-1.0.4.jar"
+  }, {
+    "group" : "org.forgerock.am",
+    "name" : "openam-encryption-support-8.0.1-SNAPSHOT.jar",
+    "version" : "8.0.1-SNAPSHOT",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "506794f913d96d797603245bb506facd4f37f136"
+    } ],
+    "licenses" : [ {
+      "expression" : "NONE"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "20cb946b-46c3-418e-be6b-4ee39de8dc66"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ],
+    "type" : "library",
+    "bom-ref" : "openam-encryption-support-8.0.1-SNAPSHOT.jar"
+  }, {
+    "group" : "org.ow2.asm",
+    "name" : "asm-analysis-9.6.jar",
+    "version" : "9.6",
+    "description" : "Static code analysis API of ASM, a very small and fast Java bytecode manipulation framework",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9ce6c7b174bd997fc2552dff47964546bd7a5ec3"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "OW2,Copyright 2011-2012 Bull S.A.S",
+    "purl" : "pkg:maven/org.ow2.asm/asm-analysis@9.6?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.ow2.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.ow2.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c023b527-c16c-4d64-99f7-2c0cf3da0cf8"
+    } ],
+    "type" : "library",
+    "bom-ref" : "asm-analysis-9.6.jar"
+  }, {
+    "group" : "org.forgerock.commons",
+    "name" : "forgerock-util-27.0.0-20250228233241-84008dd5f1fd44fb2ea68ed78489d3881761b982.jar",
+    "version" : "27.0.0-20250228233241-84008dd5f1fd44fb2ea68ed78489d3881761b982",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c0fcb537a0171c030b6886879b1e428326e9e335"
+    } ],
+    "licenses" : [ {
+      "expression" : "NONE"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "68c87920-71e3-4ccb-a35e-26cb77a0a85e"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ],
+    "type" : "library",
+    "bom-ref" : "forgerock-util-27.0.0-20250228233241-84008dd5f1fd44fb2ea68ed78489d3881761b982.jar"
+  }, {
+    "group" : "org.abego.treelayout",
+    "name" : "org.abego.treelayout.core-1.0.3.jar",
+    "version" : "1.0.3",
+    "description" : "Efficient and customizable TreeLayout Algorithm in Java.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "457216e8e6578099ae63667bb1e4439235892028"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "2021 abego Software GmbH",
+    "purl" : "pkg:maven/org.abego.treelayout/org.abego.treelayout.core@1.0.3?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://abego-software.de"
+    }, {
+      "type" : "distribution",
+      "url" : "http://abego-software.de"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "f78ae45a-9623-42d9-a357-99774e2acad4"
+    } ],
+    "type" : "library",
+    "bom-ref" : "org.abego.treelayout.core-1.0.3.jar"
+  }, {
+    "group" : "com.fasterxml.jackson.core",
+    "name" : "jackson-core-2.16.1.jar",
+    "version" : "2.16.1",
+    "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9456bb3cdd0f79f91a5f730a1b1bb041a380c91f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "FasterXML,Copyright 2023 Werner Randelshofer, Switzerland,Copyright 2021 The fast_float authors,Copyright 2023 Werner Randelshofer, Switzerland,Copyright 2022 Daniel Lemire,Copyright 2020 Tim Buktu. 2-clause BSD License,Copyright 2007 Tatu Saloranta (tatu.saloranta@iki.fi)",
+    "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.16.1?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://fasterxml.com/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://fasterxml.com/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "46edcdf9-744a-44a8-9aa0-5ba012d65ac3"
+    } ],
+    "type" : "library",
+    "bom-ref" : "jackson-core-2.16.1.jar"
+  }, {
+    "group" : "com.google.guava",
+    "name" : "guava-32.1.1-jre.jar",
+    "version" : "32.1.1-jre",
+    "description" : "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ad575652d84153075dd41ec6177ccb15251262b2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "purl" : "pkg:maven/com.google.guava/guava@32.1.1-jre?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/google/guava"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/google/guava"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "dc18eb8c-7c7d-4d28-970c-4421e7e9f3cf"
+    } ],
+    "type" : "library",
+    "bom-ref" : "guava-32.1.1-jre.jar"
+  }, {
+    "group" : "org.forgerock.opendj",
+    "name" : "opendj-core-8.0.0-20250325155403-f2600018d0921056968330bb64a76dba6ee4a9b7.jar",
+    "version" : "8.0.0-20250325155403-f2600018d0921056968330bb64a76dba6ee4a9b7",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ad8f34c2ef0baa9435ab50d094324e0c4c057616"
+    } ],
+    "licenses" : [ {
+      "expression" : "NONE"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1bad249b-d3be-4c34-864a-642114c16aba"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ],
+    "type" : "library",
+    "bom-ref" : "opendj-core-8.0.0-20250325155403-f2600018d0921056968330bb64a76dba6ee4a9b7.jar"
+  }, {
+    "group" : "org.ow2.asm",
+    "name" : "asm-9.6.jar",
+    "version" : "9.6",
+    "description" : "ASM, a very small and fast Java bytecode manipulation framework",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "aa205cf0a06dbd8e04ece91c0b37c3f5d567546a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "OW2,Copyright 2011-2012 Bull S.A.S",
+    "purl" : "pkg:maven/org.ow2.asm/asm@9.6?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.ow2.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.ow2.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "6075a4ec-a254-4558-a201-c96740ab81c9"
+    } ],
+    "type" : "library",
+    "bom-ref" : "asm-9.6.jar"
+  }, {
+    "group" : "com.google.errorprone",
+    "name" : "error_prone_annotations-2.3.4.jar",
+    "version" : "2.3.4",
+    "description" : "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2015 The Error Prone Authors",
+    "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
+    }, {
+      "type" : "distribution",
+      "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c71d92de-7a6e-4f8c-abc5-f509ca79aab8"
+    } ],
+    "type" : "library",
+    "bom-ref" : "error-prone-annotations-2.3.4.jar"
+  }, {
+    "group" : "org.ow2.asm",
+    "name" : "asm-util-9.6.jar",
+    "version" : "9.6",
+    "description" : "Utilities for ASM, a very small and fast Java bytecode manipulation framework",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f77caf84eb93786a749b2baa40865b9613e3eaee"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "OW2,Copyright 2011-2012 Bull S.A.S",
+    "purl" : "pkg:maven/org.ow2.asm/asm-util@9.6?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.ow2.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.ow2.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "236c2206-57f5-4a15-900b-d1310911344f"
+    } ],
+    "type" : "library",
+    "bom-ref" : "asm-util-9.6.jar"
+  }, {
+    "group" : "jline",
+    "name" : "jline-2.14.6.jar",
+    "version" : "2.14.6",
+    "description" : "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c3aeac59c022bdc497c8c48ed86fa50450e4896a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-2-Clause",
+        "url" : "http://opensource.org/licenses/bsd-license"
+      }
+    } ],
+    "copyright" : "Copyright 2002-2016 the original author or authors,Copyright 2002-2016 the original author or authors",
+    "purl" : "pkg:maven/jline/jline@2.14.6?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/jline"
+    }, {
+      "type" : "distribution",
+      "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/jline"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "79c20981-abb2-470e-9e7d-cb996c74330f"
+    } ],
+    "type" : "library",
+    "bom-ref" : "jline-2.14.6.jar"
+  }, {
+    "group" : "org.apache.ivy",
+    "name" : "ivy-2.5.2.jar",
+    "version" : "2.5.2",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "cdde632c88d66bee5b13379448d12ed8baa58464"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2002-2007 Atsuhiko Yamanaka,Copyright 2005-2006 Swiss Federal Institute of Technology,Copyright 2007-2023 The Apache Software Foundation,Copyright 2007 John Resig, http://jquery.com/",
+    "purl" : "pkg:maven/org.apache.ivy/ivy@2.5.2?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.apache.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.apache.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "845dd2c1-25aa-4037-821e-b77cf3748912"
+    } ],
+    "type" : "library",
+    "bom-ref" : "ivy-2.5.2.jar"
+  }, {
+    "group" : "com.github.javaparser",
+    "name" : "javaparser-core-3.25.7.jar",
+    "version" : "3.25.7",
+    "description" : "The core parser functionality. This may be all you need.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a99e13ba0ce0643a51f8d1b31b7401e3673ed417"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    }, {
+      "license" : {
+        "id" : "LGPL-3.0-only",
+        "url" : "http://www.gnu.org/copyleft/lesser.html"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "purl" : "pkg:maven/com.github.javaparser/javaparser-core@3.25.7?type=jar",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/javaparser"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/javaparser"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "79fafabb-631d-4e22-9470-461ffd121acb"
+    } ],
+    "type" : "library",
+    "bom-ref" : "javaparser-core-3.25.7.jar"
+  } ],
+  "dependencies" : [ {
+    "ref" : "jline-2.14.6.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "groovy-4.0.17.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "groovy-swing-4.0.17.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "groovy-xml-4.0.17.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "groovy-templates-4.0.17.jar",
+    "dependsOn" : [ "groovy-xml-4.0.17.jar" ]
+  }, {
+    "ref" : "ivy-2.5.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "asm-9.6.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "asm-tree-9.6.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "asm-analysis-9.6.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "asm-util-9.6.jar",
+    "dependsOn" : [ "asm-9.6.jar", "asm-tree-9.6.jar", "asm-analysis-9.6.jar" ]
+  }, {
+    "ref" : "org.abego.treelayout.core-1.0.3.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "jsr305-3.0.0.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "checker-qual-3.19.0.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "error-prone-annotations-2.3.4.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "failureaccess-1.0.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "guava-32.1.1-jre.jar",
+    "dependsOn" : [ "jsr305-3.0.0.jar", "checker-qual-3.19.0.jar", "error-prone-annotations-2.3.4.jar", "failureaccess-1.0.2.jar", "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" ]
+  }, {
+    "ref" : "javaparser-core-3.25.7.jar",
+    "dependsOn" : [ "guava-32.1.1-jre.jar" ]
+  }, {
+    "ref" : "groovy-console-4.0.17.jar",
+    "dependsOn" : [ "groovy-swing-4.0.17.jar", "groovy-templates-4.0.17.jar", "ivy-2.5.2.jar", "asm-util-9.6.jar", "org.abego.treelayout.core-1.0.3.jar", "javaparser-core-3.25.7.jar" ]
+  }, {
+    "ref" : "groovy-groovysh-4.0.17.jar",
+    "dependsOn" : [ "jline-2.14.6.jar", "groovy-4.0.17.jar", "groovy-console-4.0.17.jar" ]
+  }, {
+    "ref" : "jcommander-1.82.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "groovy-json-4.0.17.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "reactive-streams-1.0.4.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "rxjava-3.1.5.jar",
+    "dependsOn" : [ "reactive-streams-1.0.4.jar" ]
+  }, {
+    "ref" : "org.apache.servicemix.bundles.jcip-annotations-1.0-2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "opendj-core-8.0.0-20250325155403-f2600018d0921056968330bb64a76dba6ee4a9b7.jar",
+    "dependsOn" : [ "rxjava-3.1.5.jar", "org.apache.servicemix.bundles.jcip-annotations-1.0-2.jar" ]
+  }, {
+    "ref" : "jackson-core-2.16.1.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "jackson-annotations-2.16.1.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "jackson-databind-2.16.1.jar",
+    "dependsOn" : [ "jackson-core-2.16.1.jar", "jackson-annotations-2.16.1.jar" ]
+  }, {
+    "ref" : "commons-lang3-3.17.0.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "slf4j-api-2.0.16.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "forgerock-util-27.0.0-20250228233241-84008dd5f1fd44fb2ea68ed78489d3881761b982.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "openam-encryption-support-8.0.1-SNAPSHOT.jar",
+    "dependsOn" : [ "slf4j-api-2.0.16.jar", "forgerock-util-27.0.0-20250228233241-84008dd5f1fd44fb2ea68ed78489d3881761b982.jar" ]
+  }, {
+    "ref" : "36c7dd84-ebf3-40fd-ae9c-c2a4f6f18014",
+    "dependsOn" : [ "groovy-groovysh-4.0.17.jar", "jcommander-1.82.jar", "groovy-json-4.0.17.jar", "opendj-core-8.0.0-20250325155403-f2600018d0921056968330bb64a76dba6ee4a9b7.jar", "jackson-databind-2.16.1.jar", "commons-lang3-3.17.0.jar", "openam-encryption-support-8.0.1-SNAPSHOT.jar" ]
+  } ]
+}

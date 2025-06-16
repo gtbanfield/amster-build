@@ -1,0 +1,28 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:80795402-c91f-4999-a9b8-b1a81f554e21",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-04-15T11:59:34Z",
+    "tools" : [ {
+      "vendor" : "Mend.io",
+      "name" : "CycloneDX report generator",
+      "version" : "1.0.0"
+    } ],
+    "authors" : [ {
+      "name" : "Organization: ForgeRock"
+    }, {
+      "name" : "Person: ci (ci@pingidentity.com)"
+    } ],
+    "component" : {
+      "name" : "openam-sts - sustaining/8.0.x",
+      "type" : "application",
+      "bom-ref" : "2786a948-d3bc-4b9a-bd64-dd71df24f355"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "Product SBOM Report"
+    } ]
+  }
+}

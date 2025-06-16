@@ -1,0 +1,104 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:c94b623d-8184-4165-a4d8-ae6c23ff69fb",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-04-15T11:59:34Z",
+    "tools" : [ {
+      "vendor" : "Mend.io",
+      "name" : "CycloneDX report generator",
+      "version" : "1.0.0"
+    } ],
+    "authors" : [ {
+      "name" : "Organization: ForgeRock"
+    }, {
+      "name" : "Person: ci (ci@pingidentity.com)"
+    } ],
+    "component" : {
+      "name" : "openam-radius-cli - sustaining/8.0.x",
+      "type" : "application",
+      "bom-ref" : "75c16cf4-0308-46a9-bfaf-f8bf61b63e63"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "Product SBOM Report"
+    } ]
+  },
+  "components" : [ {
+    "group" : "org.slf4j",
+    "name" : "slf4j-api-2.0.16.jar",
+    "version" : "2.0.16",
+    "description" : "The slf4j API",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0172931663a09a1fa515567af5fbef00897d3c04"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "QOS.ch,Copyright 2004-2022 QOS.ch Sarl",
+    "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.16",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.slf4j.org"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.slf4j.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e98b1211-09c0-47ac-9bef-1506f8fa159f"
+    } ],
+    "type" : "library",
+    "bom-ref" : "slf4j-api-2.0.16.jar"
+  }, {
+    "group" : "org.forgerock.am",
+    "name" : "openam-radius-common-8.0.1-SNAPSHOT.jar",
+    "version" : "8.0.1-SNAPSHOT",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d543e3233111c0b1d1d0f8774c437a67dd369bcc"
+    } ],
+    "licenses" : [ {
+      "expression" : "NONE"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "f534a97f-c4ed-484b-8eff-7d7e6db10a65"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ],
+    "type" : "library",
+    "bom-ref" : "openam-radius-common-8.0.1-SNAPSHOT.jar"
+  } ],
+  "dependencies" : [ {
+    "ref" : "slf4j-api-2.0.16.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "openam-radius-common-8.0.1-SNAPSHOT.jar",
+    "dependsOn" : [ "slf4j-api-2.0.16.jar" ]
+  }, {
+    "ref" : "75c16cf4-0308-46a9-bfaf-f8bf61b63e63",
+    "dependsOn" : [ "openam-radius-common-8.0.1-SNAPSHOT.jar" ]
+  } ]
+}
