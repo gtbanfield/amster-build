@@ -1,0 +1,28 @@
+inputSet:
+  pipeline:
+    identifier: amsterbuild
+    properties:
+      ci:
+        codebase:
+          build:
+            spec:
+              branch: main
+            type: branch
+    stages:
+      - stage:
+          identifier: CI
+          type: CI
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: BuildAndPushDockerRegistry_1
+                    type: BuildAndPushDockerRegistry
+                    spec:
+                      dockerfile: amster/samples/docker/Dockerfile
+                      tags:
+                        - 7.5.0
+  name: amster-build
+  identifier: amsterbuild
+  orgIdentifier: default
+  projectIdentifier: IDA
