@@ -43,7 +43,7 @@ pipeline:
                       unzip Amster-7.3.0.zip
                       pwd
                       ls -la .
-                      cd /harness/AMster/amster/samples/docker/
+                      cd samples/docker/
                       ./setup.sh
               - step:
                   type: BuildAndPushDockerRegistry
@@ -54,14 +54,15 @@ pipeline:
                     repo: 192.168.1.83:5000/repository/amster-base
                     tags: <+input>
                     dockerfile: <+input>
+                    context: /harness/AMster/amster-build/samples/docker
                     buildArgs:
                       APP_NAME: <+pipeline.name>
-                    envVariables:
-                      PLUGIN_SKIP_TLS_VERIFY: "true"
                     resources:
                       limits:
                         memory: 2Gi
                         cpu: 1
+                    envVariables:
+                      PLUGIN_SKIP_TLS_VERIFY: "true"
           sharedPaths:
             - /gbshared
           caching:
