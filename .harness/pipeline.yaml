@@ -54,7 +54,7 @@ pipeline:
                     repo: 192.168.1.83:5000/repository/amster-base
                     tags: <+input>
                     dockerfile: <+input>
-                    context: amster-build/samples/docker
+                    context: /harness/AMster/amster-build/samples/docker
                     buildArgs:
                       APP_NAME: <+pipeline.name>
                     resources:
