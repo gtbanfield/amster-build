@@ -36,7 +36,15 @@ pipeline:
                     connectorRef: account.harnessImage
                     image: maven:3.9.9-amazoncorretto-17-al2023
                     shell: Sh
-                    command: amster/samples/docker/setup.sh
+                    command: |-
+                      mkdir /harness/DS
+                      curl -k https://192.168.1.83:8443/repository/adhoc/Ping/DS/DS-8.0.0.zip -O --output-dir /harness/DS/
+                      cd /harness/DS/
+                      unzip DS-8.0.0.zip
+                      pwd
+                      ls -la .
+                      cd /harness/DS/amster/samples/docker/
+                      ./setup.sh
               - step:
                   type: BuildAndPushDockerRegistry
                   name: Nexus
