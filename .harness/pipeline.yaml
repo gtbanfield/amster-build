@@ -38,9 +38,9 @@ pipeline:
                     shell: Sh
                     command: |-
                       mkdir /harness/AMster
-                      curl -k https://192.168.1.83:8443/repository/adhoc/Ping/amster/Amster-8.0.1.zip -O --output-dir /harness/AMster/
+                      curl -k https://192.168.1.83:8443/repository/adhoc/Ping/amster/Amster-7.3.0.zip -O --output-dir /harness/AMster/
                       cd /harness/AMster/
-                      unzip Amster-8.0.1.zip
+                      unzip Amster-7.3.0.zip
                       pwd
                       ls -la .
                       cd /harness/AMster/amster/samples/docker/
