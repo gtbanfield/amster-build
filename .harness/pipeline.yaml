@@ -38,12 +38,12 @@ pipeline:
                     shell: Sh
                     command: |-
                       mkdir /harness/DS
-                      curl -k https://192.168.1.83:8443/repository/adhoc/Ping/DS/DS-8.0.0.zip -O --output-dir /harness/DS/
-                      cd /harness/DS/
-                      unzip DS-8.0.0.zip
+                      curl -k https://192.168.1.83:8443/repository/adhoc/Ping/amster/Amster-8.0.1.zip -O --output-dir /harness/amster/
+                      cd /harness/amster/
+                      unzip Amster-8.0.1.zip
                       pwd
                       ls -la .
-                      cd /harness/DS/amster/samples/docker/
+                      cd /harness/amster/amster/samples/docker/
                       ./setup.sh
               - step:
                   type: BuildAndPushDockerRegistry
