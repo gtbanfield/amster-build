@@ -34,7 +34,7 @@ pipeline:
                   identifier: setup
                   spec:
                     connectorRef: account.harnessImage
-                    image: maven:3.9.9-amazoncorretto-17-al2023
+                    image: gtbanf1979/maven:v1
                     shell: Sh
                     command: |-
                       mkdir /harness/DS
