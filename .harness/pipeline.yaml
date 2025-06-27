@@ -27,46 +27,21 @@ pipeline:
               nodeSelector: {}
               os: Linux
           execution:
-            steps:
-              - step:
-                  type: Run
-                  name: setup
-                  identifier: setup
-                  spec:
-                    connectorRef: account.harnessImage
-                    image: gtbanf1979/maven:v1
-                    shell: Sh
-                    command: |-
-                      mkdir /harness/AMster
-                      curl -k https://192.168.1.83:8443/repository/adhoc/Ping/amster/Amster-7.3.0.zip -O --output-dir /harness/AMster/
-                      cd /harness/AMster/
-                      unzip Amster-7.3.0.zip
-                      pwd
-                      ls -la .
-                      cd samples/docker/
-                      ./setup.sh
+            steps:                  
               - step:
                   type: BuildAndPushDockerRegistry
                   name: Nexus
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: account.Nexus
-                    repo: 192.168.1.83:5000/repository/amster-base
+                    repo: 192.168.1.83:5000/repository/harness/client
                     tags: <+input>
                     dockerfile: <+input>
-                    context: amster-build/samples/docker
                     buildArgs:
                       APP_NAME: <+pipeline.name>
+                    envVariables:
+                      PLUGIN_SKIP_TLS_VERIFY: "true"                     
                     resources:
                       limits:
                         memory: 2Gi
                         cpu: 1
-                    envVariables:
-                      PLUGIN_SKIP_TLS_VERIFY: "true"
-          sharedPaths:
-            - /gbshared
-          caching:
-            enabled: false
-            paths: []
-          buildIntelligence:
-            enabled: false
